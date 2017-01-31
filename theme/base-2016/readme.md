@@ -145,7 +145,7 @@ As you can see, we can still use 'include' for small blocks of HTML, even though
 we're using template inheritance. This way we can keep our themes very
 structured and organized.
 
-In the diagram below, you'll see the wat most pages are structured. In this case,
+In the diagram below, you'll see the way most pages are structured. In this case,
 `index.twig`. In the HTML, you will see it extends `_master.twig`, which can be found in
 the `partials/` folder. Inside this file, the global structure of all pages is laid out:
 The basic HTML structure, and a handful of other included partials.
